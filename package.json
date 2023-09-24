@@ -1,0 +1,52 @@
+{
+    "name": "test-node-app",
+    "version": "1.0.0",
+    "description": "A test Node.js web application",
+    "main": "myapp/bin/www",
+    "scripts": {
+        "start": "node myapp/bin/www",
+        "dev": "nodemon myapp/bin/www",
+        "test": "jest",
+        "lint": "eslint ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/tonygionfriddo/nodepractice.git"
+    },
+    "keywords": [
+        "node",
+        "express",
+        "web"
+    ],
+    "author": "Tony Gionfriddo",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/tonygionfriddo/nodepractice/issues"
+    },
+    "homepage": "https://github.com/tonygionfriddo/nodepractice#readme",
+    "dependencies": {
+        "@types/cookie-parser": "^1.4.3",
+        "@types/express": "^4.17.17",
+        "@types/http-errors": "^2.0.1",
+        "@types/morgan": "^1.9.4",
+        "@types/node": "^20.5.0",
+        "@types/pug": "^2.0.6",
+        "cookie-parser": "~1.4.4",
+        "debug": "~2.6.9",
+        "dotenv": "^10.0.0",
+        "express": "^4.17.1",
+        "express-generator": "^4.14.1",
+        "http-errors": "~1.6.3",
+        "morgan": "~1.9.1",
+        "pug": "^3.0.2",
+        "typescript": "^5.1.6"
+    },
+    "devDependencies": {
+        "eslint": "^7.30.0",
+        "jest": "^27.0.5",
+        "nodemon": "^2.0.7"
+    },
+    "engines": {
+        "node": ">=14.0.0"
+    }
+}
